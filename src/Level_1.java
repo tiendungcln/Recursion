@@ -36,6 +36,12 @@ public class Level_1 {
         // Last In First Out (LIFO)
         // Vào sau → Ra trước.
         System.out.print("Sau " + current + " ");
+        // In ra:
+        //- Đặt trước recursive call => thấy chiều đi xuống.
+        //- Đặt sau recursive call => thấy chiều đi lên.
+        // Tính kết quả:
+        //- Không phải chạy 2 lần.
+        //- Mà là đi xuống một lần rồi quay lên một lần.
 
     }
 
